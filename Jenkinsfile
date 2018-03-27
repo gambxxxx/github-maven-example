@@ -1,4 +1,5 @@
 pipeline {
+  agent any
     parameters{
         string(name: 'tomcat_dev', defaultValue: '127.0.0.1:9080', description: 'Staging Server')
 
